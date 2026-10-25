@@ -1,0 +1,13 @@
+U 0 Amira 24
+U 1 Yassine 27
+U 2 Leila 22
+U 3 Mehdi 29
+U 4 Nour 26
+U 5 Sofien 31
+
+R 0 1 4  # Amira - Yassine
+R 0 2 5  # Amira - Leila (relation forte)
+R 1 3 2  # Yassine - Mehdi
+R 2 4 3  # Leila - Nour
+R 3 5 4  # Mehdi - Sofien
+R 4 5 1  # Nour - Sofien (relation faible)
